@@ -12,3 +12,11 @@
 
 1. On this dataset, l1 regularization and L1+L2 is not working as expected. L1 seems to supersede L2 regularization. Model stops learning and accuracy does not improve. why?
 2. l2 regularization and without regularization model are better models. 
+
+
+Regularization	| Best Train Accuracy 	| Test Accuracy  
+----- |-------|---
+None|	99.19%|	99.64%
+L1|	98.23%|	98.83%
+L2|	99.17%|	99.58%
+Both|	98.19%|	98.92%
